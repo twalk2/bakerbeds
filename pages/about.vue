@@ -82,7 +82,10 @@
                   </div>
                   <div class="ml-4 lg:ml-0">
                     <div class="text-base leading-6 font-medium text-gray-900">Reid Baker</div>
-                    <div class="text-base leading-6 font-medium text-indigo-600">CEO, Baker Beds</div>
+                    <div
+                      style="color: #d76310"
+                      class="text-base leading-6 font-medium"
+                    >CEO, Baker Beds</div>
                   </div>
                 </div>
               </footer>

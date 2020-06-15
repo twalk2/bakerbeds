@@ -60,13 +60,6 @@
                 </dd>
               </div>
             </dl>
-            <p class="mt-6 text-base leading-6 text-gray-500">
-              Looking for careers?
-              <a
-                href="#"
-                class="font-medium text-gray-700 underline"
-              >View all job openings</a>.
-            </p>
           </div>
         </div>
         <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
@@ -118,7 +111,7 @@
                 <span class="inline-flex rounded-md shadow-sm">
                   <button
                     type="submit"
-                    class="inline-flex justify-center py-3 px-6 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out"
+                    class="submit-button inline-flex justify-center py-3 px-6 border border-transparent text-base leading-6 font-medium rounded-md text-white focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition duration-150 ease-in-out"
                   >Submit</button>
                 </span>
               </div>
@@ -137,4 +130,10 @@ export default {
 </script>
 
 <style>
+.submit-button {
+  background: #d76310;
+}
+.submit-button:hover {
+  background: #f88a3c;
+}
 </style>

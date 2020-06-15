@@ -1,29 +1,10 @@
 <template>
   <div>
+    <div class="banner-image-wrapper">
+      <img class="banner-image w-screen" src="../assets/random-cot.jpg">
+    </div>
     <div class="bg-gray-50 overflow-hidden">
       <div class="relative max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-        <svg
-          class="absolute top-0 left-full transform -translate-x-1/2 -translate-y-3/4 lg:left-auto lg:right-full lg:translate-x-2/3 lg:translate-y-1/4"
-          width="404"
-          height="784"
-          fill="none"
-          viewBox="0 0 404 784"
-        >
-          <defs>
-            <pattern
-              id="8b1b5f72-e944-4457-af67-0c6d15a99f38"
-              x="0"
-              y="0"
-              width="20"
-              height="20"
-              patternUnits="userSpaceOnUse"
-            >
-              <rect x="0" y="0" width="4" height="4" class="text-gray-200" fill="currentColor"></rect>
-            </pattern>
-          </defs>
-          <rect width="404" height="784" fill="url(#8b1b5f72-e944-4457-af67-0c6d15a99f38)"></rect>
-        </svg>
-
         <div class="relative lg:grid lg:grid-cols-3 lg:col-gap-8">
           <div class="lg:col-span-1">
             <h3
@@ -35,14 +16,11 @@
           >
             <div>
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="featured-icons-wrapper flex items-center justify-center h-12 w-12 rounded-md text-white"
               >
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="featured-icons h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z"
                   ></path>
                 </svg>
               </div>
@@ -55,14 +33,11 @@
             </div>
             <div class="mt-10 sm:mt-0">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="featured-icons-wrapper flex items-center justify-center h-12 w-12 rounded-md text-white"
               >
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="featured-icons h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
                   ></path>
                 </svg>
               </div>
@@ -77,14 +52,13 @@
             </div>
             <div class="mt-10 sm:mt-0">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="featured-icons-wrapper flex items-center justify-center h-12 w-12 rounded-md text-white"
               >
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="featured-icons h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                    fill-rule="evenodd"
+                    d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                    clip-rule="evenodd"
                   ></path>
                 </svg>
               </div>
@@ -97,14 +71,13 @@
             </div>
             <div class="mt-10 sm:mt-0">
               <div
-                class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white"
+                class="featured-icons-wrapper flex items-center justify-center h-12 w-12 rounded-md text-white"
               >
-                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg class="featured-icons h-6 w-6" fill="currentColor" viewBox="0 0 20 20">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM4.332 8.027a6.012 6.012 0 011.912-2.706C6.512 5.73 6.974 6 7.5 6A1.5 1.5 0 019 7.5V8a2 2 0 004 0 2 2 0 011.523-1.943A5.977 5.977 0 0116 10c0 .34-.028.675-.083 1H15a2 2 0 00-2 2v2.197A5.973 5.973 0 0110 16v-2a2 2 0 00-2-2 2 2 0 01-2-2 2 2 0 00-1.668-1.973z"
+                    clip-rule="evenodd"
                   ></path>
                 </svg>
               </div>
@@ -129,4 +102,10 @@ export default {
 </script>
 
 <style>
+.featured-icons-wrapper {
+  background-color: #d76310;
+}
+.featured-icons {
+  color: white;
+}
 </style>
