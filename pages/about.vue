@@ -48,11 +48,7 @@
 
         <div class="relative lg:flex lg:items-center">
           <div class="hidden lg:block lg:flex-shrink-0">
-            <img
-              class="h-64 w-64 rounded-full xl:h-80 xl:w-80"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt
-            >
+            <img class="h-auto w-auto rounded-full xl:h-auto xl:w-80" src="../assets/reid.jpeg" alt>
           </div>
 
           <div class="relative lg:ml-10">
@@ -74,11 +70,7 @@
               <footer class="mt-8">
                 <div class="flex">
                   <div class="flex-shrink-0 lg:hidden">
-                    <img
-                      class="h-12 w-12 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                      alt
-                    >
+                    <img class="h-12 w-12 rounded-full" src="../assets/reid.jpeg" alt>
                   </div>
                   <div class="ml-4 lg:ml-0">
                     <div class="text-base leading-6 font-medium text-gray-900">Reid Baker</div>
