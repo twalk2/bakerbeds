@@ -48,7 +48,7 @@
 
         <div class="relative lg:flex lg:items-center">
           <div class="hidden lg:block lg:flex-shrink-0">
-            <img class="h-auto w-auto rounded-full xl:h-auto xl:w-80" src="../assets/reid.jpeg" alt>
+            <img class="h-auto w-auto rounded-full sm:h-auto sm:w-80" src="../assets/reid.jpeg" alt>
           </div>
 
           <div class="relative lg:ml-10">
